@@ -10,12 +10,16 @@
 }
 
 @layer components {
+  .typo-display {
+    @apply font-display text-2xl md:text-4xl lg:text-6xl font-bold;
+  }
+
   .typo-h1 {
-    @apply font-display text-2xl md:text-4xl lg:text-5xl font-semibold;
+    @apply font-display text-2xl md:text-4xl lg:text-5xl font-black;
   }
 
   .typo-h2 {
-    @apply font-display text-2xl md:text-3xl lg:text-4xl font-semibold;
+    @apply font-display text-2xl md:text-3xl lg:text-4xl font-bold;
   }
 
   .typo-h3 {
@@ -23,7 +27,7 @@
   }
 
   .typo-h4 {
-    @apply font-display text-2xl font-semibold;
+    @apply font-display text-sm md:text-2xl font-medium;
   }
 
   .typo-h5 {
@@ -31,15 +35,15 @@
   }
 
   .typo-h6 {
-    @apply font-display text-base font-semibold;
+    @apply font-display text-sm md:text-base font-semibold;
   }
 
   .typo-blockquote {
-    @apply font-body text-lg lg:text-xl font-normal;
+    @apply font-body text-lg lg:text-xl font-bold;
   }
 
   .typo-intro {
-    @apply font-body text-base font-semibold;
+    @apply font-body text-base font-bold;
   }
 
   .typo-body {
@@ -58,7 +62,7 @@
 
   .container-lg {
     @apply mx-auto px-4;
-    max-width: 1300px;
+    max-width: 1240px;
   }
 
   .container-md {

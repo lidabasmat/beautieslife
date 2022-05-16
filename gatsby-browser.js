@@ -1,2 +1,2 @@
-import 'typeface-open-sans';
+import 'typeface-roboto';
 import './src/styles/main.css';

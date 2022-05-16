@@ -6,22 +6,32 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['Roboto', 'Helvetica', 'sans-serif'],
+            body: ['Roboto', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
             xs: ['0.75rem',      '1.5'],
-            sm: ['0.875rem',     '1.5'],
-            base: ['1rem',       '1.5'],
+            sm: ['0.875rem',     '1.57'],
+            base: ['1rem',       '1.63'],
             lg: ['1.125rem',     '1.75'],
-            xl: ['1.25rem',      '1.75'],
-            '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '2.5'],
-            '4xl': ['2.25rem',   '3'],
-            '5xl': ['3rem',      '3.5'],
+            xl: ['1.25rem',      '1.3'],
+            '2xl': ['1.63rem',    '1.54'],
+            '3xl': ['1.875rem',  '1.25'],
+            '4xl': ['2.5rem',   '1.25'],
+            '5xl': ['4.38rem',      '1.14'],
+            '6xl': ['5.625rem',      '1.11'],
         },
         extend: {
             colors: {
+              red: {
+                100: '#FEF8F8',
+                300: '#EE9591',
+                400: '#E28A86',
+              },
+              gray: {
+                300: '#555555',
+                400: '#888888',
+              }
             },
             margin: {
                 '1/12': '8.333333%',
